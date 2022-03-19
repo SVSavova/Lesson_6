@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+/*
+Напишете програма, която прочита число от конзолата и отпечатва
+дали то е четно или нечетно. (Подсказка: използвайте оператора ?:)
+ */
+public class task_2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Въведете число: ");
+        int num = scanner.nextInt();
+        System.out.println(num % 2 == 0 ? "Yes" : "No");
+    }
+}

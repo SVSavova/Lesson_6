@@ -1,0 +1,18 @@
+/*
+Нека имате ученици със следните оценки: Иванчо - 2, Ани – 5,
+Марийка - 6, Пенчо - 4, Бориславчо - 5. Използвайте printf да
+отпечатате оценките им в табличен вид, всеки ученик - на отделен
+ред.
+ */
+public class task_3 {
+    public static void main(String[] args) {
+
+        System.out.println();
+        System.out.printf("| %-60s | %5s | %n", "Иванчо", "2 ");
+        System.out.printf("| %-60s | %5s | %n", "Ани", " 5 ");
+        System.out.printf("| %-60s | %5s | %n", "Марийка", " 6 ");
+        System.out.printf("| %-60s | %5s | %n", "Пенчо", " 4 ");
+        System.out.printf("| %-60s | %5s | %n", "Бориславчо", " 5 ");
+
+    }
+}

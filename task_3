@@ -7,12 +7,27 @@
 public class task_3 {
     public static void main(String[] args) {
 
+        String name1 = "Иванчо";
+        String name2 = "Ани";
+        String name3 = "Марийка";
+        String name4 = "Пенчо";
+        String name5 = "Бориславчо";
+
+        int evaluation1 = 2;
+        int evaluation2 = 5;
+        int evaluation3 = 6;
+        int evaluation4 = 4;
+        int evaluation5 = 5;
+
         System.out.println();
-        System.out.printf("| %-60s | %5s | %n", "Иванчо", "2 ");
-        System.out.printf("| %-60s | %5s | %n", "Ани", " 5 ");
-        System.out.printf("| %-60s | %5s | %n", "Марийка", " 6 ");
-        System.out.printf("| %-60s | %5s | %n", "Пенчо", " 4 ");
-        System.out.printf("| %-60s | %5s | %n", "Бориславчо", " 5 ");
+
+        System.out.printf("| %-60s | %10s | %n", "Ученици", "Оценки");
+        System.out.printf("| %-1s | %s | %n", "------------------------------------------------------------", "----------");
+        System.out.printf("| %-60s | %10s | %n", name1, evaluation1);
+        System.out.printf("| %-60s | %10s | %n", name2, evaluation2);
+        System.out.printf("| %-60s | %10s | %n", name3, evaluation3);
+        System.out.printf("| %-60s | %10s | %n", name4, evaluation4);
+        System.out.printf("| %-60s | %10s | %n", name5, evaluation5);
 
     }
 }
